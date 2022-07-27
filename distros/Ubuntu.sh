@@ -41,4 +41,14 @@ wait
 #tmux terminal multiplexer good for using on a remote machine saves session if you get disconnected
 apt install tmux -y
 wait
-
+#neofetch displays system information with a nice graphic in the terminal
+apt install neofetch -y
+wait
+#python3 and pip used for python package install and running python3
+apt install python3 -y
+wait
+apt install pip -y
+wait
+#neovim updates vim(the best text editor) to neovim for some quality of life updates
+apt install neovim -y
+wait
