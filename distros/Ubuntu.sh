@@ -52,3 +52,6 @@ wait
 #neovim updates vim(the best text editor) to neovim for some quality of life updates
 apt install neovim -y
 wait
+#vlc media player
+apt install vlc -y
+wait
