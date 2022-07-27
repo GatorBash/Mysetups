@@ -13,20 +13,32 @@ apt update -y
 wait
 apt full-upgrade -y
 wait
+#help page that gives examples of common commands
 apt install tldr -y
 wait
+#like htop or top but looks a lot nicer
 apt install bpytop -y
 wait
+#full set of aircrack tools 
 apt install aircrack-ng -y
 wait
+#wireguard/wireguard-tools/wirguard-dkms point to point vpn client good for administering remote computers
 apt install wireguard -y
 wait
 apt install wireguard-tools -y
 wait
 apt install wireguard-dkms -y
 wait
+#terminator terminal multiplexor quick and easy to use
 apt install terminator -y
 wait
+#type 2 hypervisor quick and easy to use for virtual machines
 apt install gnome-boxes -y
 wait
+#terminal toy that displays a train going across the screen helps me to slow down when i'm going to fast
 apt install sl -y
+wait
+#tmux terminal multiplexer good for using on a remote machine saves session if you get disconnected
+apt install tmux -y
+wait
+
