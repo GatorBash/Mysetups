@@ -49,6 +49,8 @@ apt install python3 -y
 wait
 apt install pip -y
 wait
+apt install python3-pip -y
+wait
 #neovim updates vim(the best text editor) to neovim for some quality of life updates
 apt install neovim -y
 wait
