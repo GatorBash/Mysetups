@@ -57,3 +57,6 @@ wait
 #vlc media player
 apt install vlc -y
 wait
+#Used to connect to the machine
+apt install ssh -y
+wait
