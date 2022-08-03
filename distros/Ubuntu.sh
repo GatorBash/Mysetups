@@ -60,3 +60,5 @@ wait
 #Used to connect to the machine
 apt install ssh -y
 wait
+apt install arping -y
+wait
