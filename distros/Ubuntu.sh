@@ -63,3 +63,9 @@ wait
 #used for gratuitous arp
 apt install arping -y
 wait
+#used for passive arp network collection
+apt install netdiscover -y
+wait
+#use ping to find live hosts on a network 
+apt install fping -y
+wait
