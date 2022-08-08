@@ -69,3 +69,6 @@ wait
 #use ping to find live hosts on a network 
 apt install fping -y
 wait
+#in terminal file explorer
+apt install ranger
+wait
