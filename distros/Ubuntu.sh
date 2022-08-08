@@ -72,3 +72,6 @@ wait
 #in terminal file explorer
 apt install ranger
 wait
+#ids
+apt install snort
+wait
