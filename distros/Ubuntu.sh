@@ -75,3 +75,6 @@ wait
 #ids
 apt install snort
 wait
+#pdf viewer
+apt install pdftk
+wait
