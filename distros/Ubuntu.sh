@@ -16,7 +16,7 @@ wait
 #help page that gives examples of common commands
 apt install tldr -y
 wait
-#like htop or top but looks a lot nicer
+#like htop or top but looks a lot nicer (similar to task manager in windows)
 apt install bpytop -y
 wait
 #full set of aircrack tools 
