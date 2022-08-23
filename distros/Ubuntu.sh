@@ -70,11 +70,11 @@ wait
 apt install fping -y
 wait
 #in terminal file explorer
-apt install ranger
+apt install ranger -y
 wait
 #ids
-apt install snort
+apt install snort -y
 wait
 #pdf viewer
-apt install pdftk
+apt install pdftk -y
 wait
