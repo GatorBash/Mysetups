@@ -85,3 +85,8 @@ echo "deb [arch=amd64] https://updates.signal.org/desktop/apt xenial main" | sud
 wait
 apt update -y && apt install signal-desktop -y
 wait
+# install jupyter notebook
+pip install notebook
+jupyter notebook --generate-config
+# add sed command to change line in ~/.jupyter/jupyter_notebook_config.py to c.NotebookApp.use_redirect_file = False
+# this will fix an error when you try to run notebooks
