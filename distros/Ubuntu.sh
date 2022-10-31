@@ -90,3 +90,4 @@ pip install notebook
 jupyter notebook --generate-config
 # add sed command to change line in ~/.jupyter/jupyter_notebook_config.py to c.NotebookApp.use_redirect_file = False
 # this will fix an error when you try to run notebooks
+apt install python3-venv -y
