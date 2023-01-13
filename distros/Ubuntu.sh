@@ -85,6 +85,7 @@ echo "deb [arch=amd64] https://updates.signal.org/desktop/apt xenial main" | sud
 wait
 apt update -y && apt install signal-desktop -y
 wait
+apt install anbox -y
 # install jupyter notebook
 pip install notebook
 jupyter notebook --generate-config
