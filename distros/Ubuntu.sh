@@ -85,6 +85,7 @@ echo "deb [arch=amd64] https://updates.signal.org/desktop/apt xenial main" | sud
 wait
 apt update -y && apt install signal-desktop -y
 wait
+# run android apps on linux
 apt install anbox -y
 # install jupyter notebook
 pip install notebook
