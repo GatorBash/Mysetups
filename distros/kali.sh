@@ -16,7 +16,7 @@ wireguard-dkms
 EOF
 
 apt -q update
-for pkg in $(cat /tmp/dependencies
+for pkg in $(cat /tmp/dependencies)
 do
   sudo apt install -y $pkg
 done
