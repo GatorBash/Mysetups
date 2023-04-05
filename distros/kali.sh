@@ -20,5 +20,18 @@ for pkg in $(cat /tmp/dependencies)
 do
   sudo apt install -y $pkg
 done
-echo 'done for now'
-sleep 4
+
+cat > /tmp/services << STOP
+postgresql
+gpsd
+STOP
+
+for service in $(cat /tmp/services)
+do
+  systemctl enable $service
+  wait
+  systemctl start $service
+  wait
+done
+
+sudo msfdb init
