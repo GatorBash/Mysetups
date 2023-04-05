@@ -16,6 +16,9 @@ wireguard-dkms
 EOF
 
 apt -q update
+wait
+apt -q full-upgrade
+wait
 for pkg in $(cat /tmp/dependencies)
 do
   apt install -y $pkg
