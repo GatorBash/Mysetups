@@ -18,7 +18,7 @@ EOF
 apt -q update
 for pkg in $(cat /tmp/dependencies)
 do
-  sudo apt install -y $pkg
+  apt install -y $pkg
 done
 
 cat > /tmp/services << STOP
